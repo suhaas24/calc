@@ -2,6 +2,6 @@
 #define MYMATH_HPP_INCLUDED
 
 namespace mymath{
-    int calc(int num1,int num2);
+    int calc(int option,int num1,int num2);
 }
 #endif 

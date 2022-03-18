@@ -1,17 +1,30 @@
 #include<iostream>
 #include<cmath>
+using namespace std; 
 #include"mymath.hpp"
 
-int mymath::calc(int num1 , int num2){
-    //int num1;
-    //int num;
-    int result;
-    //std::cout << "Enter first number: ";
-	//std::cin >> num1;
-	//std:: cout << "Enter second number: ";
-	//std::cin >> num2;
+int mymath::calc(int option,int num1 , int num2){
 
-    result =num1+num2;
-    std::cout<<"this is output"<<result;
-
+    switch (option) {
+    case 1: {
+        cout << "Sum is " << (num1 + num2) << "\n";
+        break;
+    }
+    case 2: {
+        cout << "Difference is " << (num1 - num2) << "\n";
+        break;
+    }
+    case 3: {
+        cout << "Product is " << (num1 * num2) << "\n";
+        break;
+    }
+    case 4: {
+        cout << "Division is " << (num1/ num2) << "\n";
+        break;
+    }
+    case 5: {
+        cout<<"incorrect input/exit selected"<<"\n";
+        break;
+    }
+    }
 }
