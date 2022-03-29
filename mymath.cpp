@@ -3,28 +3,27 @@
 using namespace std; 
 #include"mymath.hpp"
 
-int mymath::calc(int option,int num1 , int num2){
+int mymath::calc_add(int num1 , int num2){
+    int result;
+    result = num1+num2;
+    cout<<result;
+    }
 
-    switch (option) {
-    case 1: {
-        cout << "Sum is " << (num1 + num2) << "\n";
-        break;
-    }
-    case 2: {
-        cout << "Difference is " << (num1 - num2) << "\n";
-        break;
-    }
-    case 3: {
-        cout << "Product is " << (num1 * num2) << "\n";
-        break;
-    }
-    case 4: {
-        cout << "Division is " << (num1/ num2) << "\n";
-        break;
-    }
-    case 5: {
-        cout<<"incorrect input/exit selected"<<"\n";
-        break;
-    }
-    }
+int mymath::calc_sub(int num1,int num2){
+    int difference;
+    difference=num1-num2;
+    cout<<difference;
+
+}
+int mymath::calc_mult(int num1, int num2){
+    int product;
+    product =num1*num2;
+    cout<<product;
+
+}
+int mymath::calc_div(int num1,int num2){
+    int divs;
+    divs= num1/num2;
+    cout <<divs;
+
 }

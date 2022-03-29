@@ -16,7 +16,26 @@ int main() {
     std::cin>>a;
     cout<<"enter second number";
     cin>>b;
-
-    mymath::calc(choice,a,b);
-
+    switch (choice) {
+    case 1: {
+        mymath::calc_add(a,b);
+        break;
+    }
+    case 2: {
+        mymath::calc_sub(a,b);
+        break;
+    }
+    case 3: {
+        mymath::calc_mult(a,b);
+        break;
+    }
+    case 4: {
+        mymath::calc_div(a,b);
+        break;
+    }
+    case 5: {
+        cout<<"incorrect input/exit selected"<<"\n";
+        break;
+    }
+    }
 }
