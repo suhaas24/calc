@@ -3,7 +3,7 @@
 
 class mymath{
     public:
-        int calc_add(int num1,int num2);
+        double calc_add(double num1,double num2);
         int calc_sub(int num1,int num2);
         int calc_mult(int num1,int num2);
         int calc_div(int num1,int num2);

@@ -3,8 +3,8 @@
 using namespace std; 
 
 int main() {
-    int a;
-    int b;
+    double a;
+    double b;
     int choice;
     cout << "Press 1 to calculate Sum of Numbers\n";
     cout << "Press 2 to calculate Difference of Numbers\n";
