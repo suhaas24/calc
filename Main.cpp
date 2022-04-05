@@ -18,19 +18,23 @@ int main() {
     cin>>b;
     switch (choice) {
     case 1: {
-        mymath::calc_add(a,b);
+        mymath cadd;
+        cadd.calc_add(a,b);
         break;
     }
     case 2: {
-        mymath::calc_sub(a,b);
+        mymath csub;
+        csub.calc_sub(a,b);
         break;
     }
     case 3: {
-        mymath::calc_mult(a,b);
+        mymath cmult;
+        cmult.calc_mult(a,b);
         break;
     }
     case 4: {
-        mymath::calc_div(a,b);
+        mymath cdiv;
+        cdiv.calc_div(a,b);
         break;
     }
     case 5: {
