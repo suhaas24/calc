@@ -7,6 +7,7 @@ double mymath::calc_add(double num1 , double num2){
     double_t result;
     result = num1+num2;
     cout<<result;
+    return result;
     }
 
 int mymath::calc_sub(int num1,int num2){
