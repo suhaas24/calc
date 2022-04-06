@@ -3,8 +3,8 @@
 using namespace std; 
 #include"mymath.hpp"
 
-int mymath::calc_add(int num1 , int num2){
-    int result;
+double mymath::calc_add(double num1 , double num2){
+    double_t result;
     result = num1+num2;
     cout<<result;
     }
